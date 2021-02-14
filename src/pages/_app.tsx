@@ -2,7 +2,6 @@ import { AppProps } from 'next/app'
 import Head from 'next/head'
 import Toast from 'components/Toast'
 
-import 'styles/libs.css'
 import GlobalStyles from 'styles/global'
 
 function App({ Component, pageProps }: AppProps) {
