@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should render button with icon 1`] = `
+.c0 {
+  position: relative;
+  overflow: hidden;
+  height: 44px;
+  border-radius: 4px;
+  border: 0;
+  padding: 0 1rem;
+  font-weight: 500;
+  width: 100%;
+  -webkit-transition: Background-color 0.2s;
+  transition: Background-color 0.2s;
+}
+
+.c0:hover:not(:disabled) {
+  background-color: var(--primary-hover);
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c0.primary {
+  color: var(--button-text);
+  background-color: var(--button-primary);
+  border: 1px solid var(--button-primary);
+}
+
+.c0.primary:hover {
+  color: var(--button-text);
+  background-color: var(--button-primary-hover);
+  border: 1px solid var(--button-primary-border);
+}
+
+.c0.outline-primary {
+  color: var(--button-primary);
+  background-color: transparent;
+  border: 1px solid var(--button-primary);
+}
+
+.c0.outline-primary:hover {
+  color: var(--button-text);
+  background-color: var(--button-primary);
+  border: 1px solid var(--button-primary);
+}
+
+<button
+  class="c0 primary"
+  type="button"
+>
+  <svg
+    data-testid="button-icon"
+    fill="currentColor"
+    height="20"
+    stroke="currentColor"
+    stroke-width="0"
+    viewBox="0 0 24 24"
+    width="20"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+    />
+  </svg>
+  Pesquisar
+</button>
+`
+
+exports[
+  `<Button /> should render spinner when the button loading is true 1`
+] = `
+.c0 {
+  position: relative;
+  overflow: hidden;
+  height: 44px;
+  border-radius: 4px;
+  border: 0;
+  padding: 0 1rem;
+  font-weight: 500;
+  width: 100%;
+  -webkit-transition: Background-color 0.2s;
+  transition: Background-color 0.2s;
+}
+
+.c0:hover:not(:disabled) {
+  background-color: var(--primary-hover);
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c0.primary {
+  color: var(--button-text);
+  background-color: var(--button-primary);
+  border: 1px solid var(--button-primary);
+}
+
+.c0.primary:hover {
+  color: var(--button-text);
+  background-color: var(--button-primary-hover);
+  border: 1px solid var(--button-primary-border);
+}
+
+.c0.outline-primary {
+  color: var(--button-primary);
+  background-color: transparent;
+  border: 1px solid var(--button-primary);
+}
+
+.c0.outline-primary:hover {
+  color: var(--button-text);
+  background-color: var(--button-primary);
+  border: 1px solid var(--button-primary);
+}
+
+.c1 {
+  -webkit-animation: eoUyJr 1s linear infinite;
+  animation: eoUyJr 1s linear infinite;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-left: 4px solid #007bff;
+  background: transparent;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.c1.loader {
+  margin: 0 auto;
+}
+
+<button
+  class="c0 primary"
+  type="button"
+>
+  <div
+    class="c1 loader"
+    data-testid="loader"
+  />
+</button>
+`
+
+exports[`<Button /> should render the button 1`] = `
+.c0 {
+  position: relative;
+  overflow: hidden;
+  height: 44px;
+  border-radius: 4px;
+  border: 0;
+  padding: 0 1rem;
+  font-weight: 500;
+  width: 100%;
+  -webkit-transition: Background-color 0.2s;
+  transition: Background-color 0.2s;
+}
+
+.c0:hover:not(:disabled) {
+  background-color: var(--primary-hover);
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c0.primary {
+  color: var(--button-text);
+  background-color: var(--button-primary);
+  border: 1px solid var(--button-primary);
+}
+
+.c0.primary:hover {
+  color: var(--button-text);
+  background-color: var(--button-primary-hover);
+  border: 1px solid var(--button-primary-border);
+}
+
+.c0.outline-primary {
+  color: var(--button-primary);
+  background-color: transparent;
+  border: 1px solid var(--button-primary);
+}
+
+.c0.outline-primary:hover {
+  color: var(--button-text);
+  background-color: var(--button-primary);
+  border: 1px solid var(--button-primary);
+}
+
+<button
+  class="c0 primary"
+  type="button"
+>
+  Pesquisar
+</button>
+`

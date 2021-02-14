@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loader /> should not render loader 1`] = `null`
+
+exports[`<Loader /> should render loader 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+}
+
+.c0 span {
+  font-size: 1.8rem;
+  margin-left: 16px;
+}
+
+.c1 {
+  width: 40px;
+  height: 40px;
+  border: 5px solid;
+  width: 60px;
+  height: 60px;
+  border-color: var(--border-loading-active) var(--border-loading) var(--border-loading);
+  border-radius: 50%;
+  -webkit-animation: eoUyJr 0.7s linear infinite;
+  animation: eoUyJr 0.7s linear infinite;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    color=""
+    data-testid="loader"
+    size="60"
+  />
+  <span />
+</div>
+`
